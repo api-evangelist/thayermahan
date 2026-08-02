@@ -1,0 +1,60 @@
+# ThayerMahan
+
+> ThayerMahan, Inc. is a U.S. maritime autonomy and ocean-intelligence company headquartered in Groton, Connecticut, founded in 2016 and led by former U.S. Navy Vice Admiral Michael Connor. It operates uncrewed surface and subsurface sensing systems that combine passive acoustic arrays, electronic sensors, edge processing, AI classification and human analysts to deliver persistent undersea surveillance, port and critical-infrastructure security, subsea infrastructure monitoring, passive acoustic marine-mammal monitoring and illegal-fishing (IUU) detection for defense, government and commercial offshore customers.
+
+<!--
+generated: 2026-08-02
+method: generated
+source: apis.yml + verified pages on https://www.thayermahan.com (the provider publishes no /llms.txt)
+-->
+
+## API surface
+
+ThayerMahan publishes **no public API**: there is no developer portal, no API documentation,
+no OpenAPI/AsyncAPI/GraphQL contract, no SDKs, no MCP server and no A2A agent card.
+The only public reference to programmatic access is on the TransparenSea page, which states
+that contact reports are delivered "by application programming interface (API), voice report,
+or other means in near real-time" — a per-engagement customer delivery integration, not a
+self-serve public API. Programmatic access is arranged through the company's sales/contact
+channel.
+
+## Systems
+
+- [Outpost](https://www.thayermahan.com/systems/outpost): Persistent autonomous maritime surveillance; 90+ day unattended endurance with automatic detection, classification and near-real-time reporting.
+- [SeaPicket](https://www.thayermahan.com/systems/seapicket): Deployable detection and monitoring barrier system.
+- [SeaGuard](https://www.thayermahan.com/systems/seaguard): Non-kinetic UUV defeat system for ports and critical infrastructure.
+- [TransparenSea](https://www.thayermahan.com/systems/transparensea): Modern data stack platform — the central repository and processing hub for collected maritime data; delivers contact reports by API, voice or other means.
+
+## Sectors
+
+- [Maritime Security](https://www.thayermahan.com/sectors/maritime-security)
+- [Surveillance for Undersea and Anti-Submarine Warfare](https://www.thayermahan.com/sectors/surveillance-for-undersea-and-anti-submarine-warfare)
+- [Security for Borders and Critical Infrastructure](https://www.thayermahan.com/sectors/security-for-borders-and-critical-infrastructure)
+- [Subsea Infrastructure](https://www.thayermahan.com/sectors/subsea-infrastructure)
+- [Whale Monitoring for Vessel Transit](https://www.thayermahan.com/sectors/whale-monitoring-for-vessel-transit)
+- [Vessel Charter](https://www.thayermahan.com/sectors/vessel-charter)
+- [Digital Signal Processing](https://www.thayermahan.com/sectors/digital-signal-processing)
+
+## Company
+
+- [Company](https://www.thayermahan.com/company): Overview, values and heritage.
+- [Leadership](https://www.thayermahan.com/leadership): Executive team.
+- [Customers](https://www.thayermahan.com/customers): Government, industry and academic partners.
+- [Strategic Partners](https://www.thayermahan.com/strategic-partners)
+- [Acoustic Sciences](https://www.thayermahan.com/ocean-acoustics)
+- [Careers](https://careers.thayermahan.com/)
+- [Contact](https://www.thayermahan.com/contact)
+
+## News
+
+- [Press & Media](https://www.thayermahan.com/press-and-media)
+- [RSS feed](https://www.thayermahan.com/rss.xml)
+- [YouTube](https://www.youtube.com/@thayermahan)
+- [LinkedIn](https://www.linkedin.com/company/thayermahan-inc./)
+
+## Optional
+
+- [Privacy Policy](https://www.thayermahan.com/privacy-policy)
+- [Accessibility](https://www.thayermahan.com/accessibility)
+- [Sitemap](https://www.thayermahan.com/sitemap)
+- [GitHub organization](https://github.com/ThayerMahan): Two public repositories, both forks of third-party tools (ncw/stressdisk, dgiardini/rtl-ais); no first-party client libraries.

@@ -1,0 +1,77 @@
+generated: '2026-08-02'
+method: probed
+source: live HTTPS probes of https://www.thayermahan.com
+host: https://www.thayermahan.com
+result: none
+note: >-
+  No RFC 8615 well-known documents are published. The thayermahan.com CMS answers every
+  unknown path with an HTTP 200 HTML soft-404 (page title "ThayerMahan | Page Not Found"),
+  so a raw status code is not evidence of a document here. Every path below was verified
+  by body inspection and is a soft-404 HTML shell, not a well-known document. Recorded so
+  a later enrichment round does not mistake the 200s for hits.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /.well-known/openid-configuration
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /.well-known/api-catalog
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /.well-known/ai-plugin.json
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /.well-known/agent-card.json
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /.well-known/agent.json
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /security.txt
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /llms.txt
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /openapi.json
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /robots.txt
+  status: 200
+  content_type: text/html
+  soft_404: true
+  present: false
+- path: /sitemap.xml
+  status: 200
+  content_type: text/xml
+  soft_404: false
+  present: true
+  note: real XML sitemap (site content only, no API or spec URLs)
+x-evidence:
+  fetched: '2026-08-02'
+  control_probe: https://www.thayermahan.com/zzz-not-a-real-page-xyz
+  control_result: 'HTTP 200, HTML, title "ThayerMahan | Page Not Found" — confirms soft-404 behavior'

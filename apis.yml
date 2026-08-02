@@ -1,17 +1,43 @@
 aid: thayermahan
 name: ThayerMahan
-description: 'ThayerMahan is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'ThayerMahan, Inc. is a U.S. maritime autonomy and ocean-intelligence company
+  headquartered in Groton, Connecticut, founded in 2016 and led by former U.S. Navy Vice
+  Admiral Michael Connor. It builds and operates uncrewed surface and subsurface sensing
+  systems — Outpost, SeaPicket, SeaGuard (a non-kinetic counter-UUV defeat system) and
+  the TransparenSea data platform — combining passive acoustic arrays, electronic sensors,
+  edge processing, AI classification and human analysts to deliver persistent undersea
+  surveillance, port and critical-infrastructure security, subsea infrastructure monitoring,
+  passive acoustic marine-mammal monitoring and illegal-fishing (IUU) detection for defense,
+  government and commercial offshore customers. ThayerMahan sells outcomes as a service
+  rather than developer tooling: it publishes no developer portal, no API documentation
+  and no machine-readable contract. The only public reference to programmatic access is
+  on the TransparenSea page, which states that contact reports are delivered by application
+  programming interface (API), voice report, or other means in near real-time — a
+  customer-delivery integration negotiated per engagement, not a self-serve public API.
+  Its GitHub organization holds two forks of third-party tools and no first-party libraries.'
 url: https://raw.githubusercontent.com/api-evangelist/thayermahan/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
+x-harvest-source-url: https://forgeglobal.com/thayermahan_stock/
 x-tier: stub
 x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
+image: https://www.thayermahan.com/images/og_logo.jpg
 tags:
 - Company
+- Defense
+- Maritime
+- Ocean Intelligence
+- Autonomous Systems
+- Undersea Surveillance
+- Passive Acoustics
+- Critical Infrastructure
+- Port Security
+- Uncrewed Surface Vessels
+- Marine Mammal Monitoring
+- National Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +45,42 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/thayermahan-domain-security.yml
 - type: Website
+  url: https://www.thayermahan.com/
+- type: About
+  url: https://www.thayermahan.com/company
+- type: Blog
+  url: https://www.thayermahan.com/press-and-media
+- type: BlogRSS
+  url: https://www.thayermahan.com/rss.xml
+- type: Support
+  url: https://www.thayermahan.com/contact
+- type: GitHubOrganization
+  url: https://github.com/ThayerMahan
+- type: PrivacyPolicy
+  url: https://www.thayermahan.com/privacy-policy
+- type: Accessibility
+  url: https://www.thayermahan.com/accessibility
+- type: Careers
+  url: https://careers.thayermahan.com/
+- type: Partners
+  url: https://www.thayermahan.com/strategic-partners
+- type: Customers
+  url: https://www.thayermahan.com/customers
+- type: Products
+  url: https://www.thayermahan.com/systems
+- type: LinkedIn
+  url: https://www.linkedin.com/company/thayermahan-inc./
+- type: YouTube
+  url: https://www.youtube.com/@thayermahan
+- type: SecondaryMarket
   url: https://forgeglobal.com/thayermahan_stock/
+- type: LLMsTxt
+  url: llms/thayermahan-llms.txt
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
