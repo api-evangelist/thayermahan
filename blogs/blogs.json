@@ -3,20 +3,26 @@
   "feeds": [
     {
       "source": "https://www.thayermahan.com/press-and-media",
-      "error": "HTTPError"
+      "feed_url": "https://www.thayermahan.com/press-and-media",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     },
     {
       "source": "https://www.thayermahan.com/rss.xml",
-      "error": "HTTPError"
+      "feed_url": "https://www.thayermahan.com/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     },
     {
-      "source": "https://www.thayermahan.com/company",
+      "source": "https://thayermahan.com/feed/",
       "feed_url": "https://thayermahan.com/feed/",
       "title": "",
-      "saved": 1,
-      "method": "discovered"
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 1,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
